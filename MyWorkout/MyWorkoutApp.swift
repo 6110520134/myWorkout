@@ -12,6 +12,10 @@ struct MyWorkoutApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(HistoryStore())
+                .onAppear {
+                    print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask))
+                }
         }
     }
 }

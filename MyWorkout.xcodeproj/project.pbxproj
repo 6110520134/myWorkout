@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		641E373726F639EA00A1EE8A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E373626F639EA00A1EE8A /* WelcomeView.swift */; };
+		641E373B26F639FA00A1EE8A /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E373A26F639FA00A1EE8A /* ExerciseView.swift */; };
+		641E374226F63E1A00A1EE8A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E374126F63E1A00A1EE8A /* HeaderView.swift */; };
+		641E374626F644C400A1EE8A /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E374526F644C400A1EE8A /* RatingView.swift */; };
+		641E374926F6458900A1EE8A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E374826F6458900A1EE8A /* HistoryView.swift */; };
+		641E374C26F6469D00A1EE8A /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E374B26F6469D00A1EE8A /* DateExtension.swift */; };
+		641E375526F65ECD00A1EE8A /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 641E374E26F65ECB00A1EE8A /* sun-salute.mp4 */; };
+		641E375626F65ECD00A1EE8A /* scissor-kicks.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 641E374F26F65ECB00A1EE8A /* scissor-kicks.mp4 */; };
+		641E375726F65ECD00A1EE8A /* jump-lunge.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 641E375026F65ECB00A1EE8A /* jump-lunge.mp4 */; };
+		641E375826F65ECD00A1EE8A /* plank.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 641E375126F65ECC00A1EE8A /* plank.mp4 */; };
+		641E375926F65ECD00A1EE8A /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 641E375226F65ECC00A1EE8A /* burpee.mp4 */; };
+		641E375A26F65ECD00A1EE8A /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 641E375326F65ECD00A1EE8A /* step-up.mp4 */; };
+		641E375B26F65ECD00A1EE8A /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 641E375426F65ECD00A1EE8A /* squat.mp4 */; };
+		641E375F26F6631800A1EE8A /* step-up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 641E375E26F6631800A1EE8A /* step-up.jpg */; };
+		641E376426F66AE600A1EE8A /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E376326F66AE600A1EE8A /* ImageExtension.swift */; };
+		641E376926F66CD600A1EE8A /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E376826F66CD600A1EE8A /* SuccessView.swift */; };
+		641E376C26F66ECA00A1EE8A /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E376B26F66ECA00A1EE8A /* Exercise.swift */; };
+		641E376F26F670B900A1EE8A /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E376E26F670B900A1EE8A /* HistoryStore.swift */; };
+		641E377326F676DB00A1EE8A /* HistoryStoreDevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E377226F676DB00A1EE8A /* HistoryStoreDevData.swift */; };
+		641E377626F6891100A1EE8A /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E377526F6891100A1EE8A /* TimerView.swift */; };
+		641E377D26F7884500A1EE8A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 641E377F26F7884500A1EE8A /* Localizable.strings */; };
 		64E5719D26F52690003F493D /* MyWorkoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E5719C26F52690003F493D /* MyWorkoutApp.swift */; };
 		64E5719F26F52690003F493D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E5719E26F52690003F493D /* ContentView.swift */; };
 		64E571A126F52694003F493D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E571A026F52694003F493D /* Assets.xcassets */; };
@@ -14,6 +35,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		641E373626F639EA00A1EE8A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		641E373A26F639FA00A1EE8A /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		641E374126F63E1A00A1EE8A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		641E374526F644C400A1EE8A /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		641E374826F6458900A1EE8A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		641E374B26F6469D00A1EE8A /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		641E374E26F65ECB00A1EE8A /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
+		641E374F26F65ECB00A1EE8A /* scissor-kicks.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "scissor-kicks.mp4"; sourceTree = "<group>"; };
+		641E375026F65ECB00A1EE8A /* jump-lunge.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jump-lunge.mp4"; sourceTree = "<group>"; };
+		641E375126F65ECC00A1EE8A /* plank.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = plank.mp4; sourceTree = "<group>"; };
+		641E375226F65ECC00A1EE8A /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
+		641E375326F65ECD00A1EE8A /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
+		641E375426F65ECD00A1EE8A /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squat.mp4; sourceTree = "<group>"; };
+		641E375E26F6631800A1EE8A /* step-up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "step-up.jpg"; sourceTree = "<group>"; };
+		641E376326F66AE600A1EE8A /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		641E376826F66CD600A1EE8A /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		641E376B26F66ECA00A1EE8A /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		641E376E26F670B900A1EE8A /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		641E377226F676DB00A1EE8A /* HistoryStoreDevData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStoreDevData.swift; sourceTree = "<group>"; };
+		641E377526F6891100A1EE8A /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		641E377E26F7884500A1EE8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		648C5F1726F792CE00EC7102 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
 		64E5719926F52690003F493D /* MyWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E5719C26F52690003F493D /* MyWorkoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkoutApp.swift; sourceTree = "<group>"; };
 		64E5719E26F52690003F493D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +76,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		641E373D26F63A0B00A1EE8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64E5719E26F52690003F493D /* ContentView.swift */,
+				641E373626F639EA00A1EE8A /* WelcomeView.swift */,
+				641E373A26F639FA00A1EE8A /* ExerciseView.swift */,
+				641E377526F6891100A1EE8A /* TimerView.swift */,
+				641E374826F6458900A1EE8A /* HistoryView.swift */,
+				641E374526F644C400A1EE8A /* RatingView.swift */,
+				641E374126F63E1A00A1EE8A /* HeaderView.swift */,
+				641E376826F66CD600A1EE8A /* SuccessView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		641E373F26F63C2B00A1EE8A /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				641E375226F65ECC00A1EE8A /* burpee.mp4 */,
+				641E375026F65ECB00A1EE8A /* jump-lunge.mp4 */,
+				641E375126F65ECC00A1EE8A /* plank.mp4 */,
+				641E374F26F65ECB00A1EE8A /* scissor-kicks.mp4 */,
+				641E375426F65ECD00A1EE8A /* squat.mp4 */,
+				641E375326F65ECD00A1EE8A /* step-up.mp4 */,
+				641E374E26F65ECB00A1EE8A /* sun-salute.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		641E376126F6631D00A1EE8A /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				641E375E26F6631800A1EE8A /* step-up.jpg */,
+			);
+			path = Picture;
+			sourceTree = "<group>";
+		};
+		641E376626F66BA100A1EE8A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				641E374B26F6469D00A1EE8A /* DateExtension.swift */,
+				641E376326F66AE600A1EE8A /* ImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		641E378126F78D0400A1EE8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				641E376E26F670B900A1EE8A /* HistoryStore.swift */,
+				641E376B26F66ECA00A1EE8A /* Exercise.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		64E5719026F52690003F493D = {
 			isa = PBXGroup;
 			children = (
@@ -52,11 +150,16 @@
 		64E5719B26F52690003F493D /* MyWorkout */ = {
 			isa = PBXGroup;
 			children = (
+				641E377F26F7884500A1EE8A /* Localizable.strings */,
+				641E376126F6631D00A1EE8A /* Picture */,
+				641E373F26F63C2B00A1EE8A /* Videos */,
 				64E5719C26F52690003F493D /* MyWorkoutApp.swift */,
-				64E5719E26F52690003F493D /* ContentView.swift */,
+				641E373D26F63A0B00A1EE8A /* Views */,
 				64E571A026F52694003F493D /* Assets.xcassets */,
 				64E571A526F52694003F493D /* Info.plist */,
 				64E571A226F52694003F493D /* Preview Content */,
+				641E376626F66BA100A1EE8A /* Extensions */,
+				641E378126F78D0400A1EE8A /* Model */,
 			);
 			path = MyWorkout;
 			sourceTree = "<group>";
@@ -65,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				64E571A326F52694003F493D /* Preview Assets.xcassets */,
+				641E377226F676DB00A1EE8A /* HistoryStoreDevData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -110,6 +214,7 @@
 			knownRegions = (
 				en,
 				Base,
+				th,
 			);
 			mainGroup = 64E5719026F52690003F493D;
 			productRefGroup = 64E5719A26F52690003F493D /* Products */;
@@ -126,8 +231,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				641E375A26F65ECD00A1EE8A /* step-up.mp4 in Resources */,
+				641E375B26F65ECD00A1EE8A /* squat.mp4 in Resources */,
+				641E377D26F7884500A1EE8A /* Localizable.strings in Resources */,
+				641E375626F65ECD00A1EE8A /* scissor-kicks.mp4 in Resources */,
 				64E571A426F52694003F493D /* Preview Assets.xcassets in Resources */,
+				641E375826F65ECD00A1EE8A /* plank.mp4 in Resources */,
+				641E375526F65ECD00A1EE8A /* sun-salute.mp4 in Resources */,
+				641E375F26F6631800A1EE8A /* step-up.jpg in Resources */,
 				64E571A126F52694003F493D /* Assets.xcassets in Resources */,
+				641E375926F65ECD00A1EE8A /* burpee.mp4 in Resources */,
+				641E375726F65ECD00A1EE8A /* jump-lunge.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,18 +252,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				641E377626F6891100A1EE8A /* TimerView.swift in Sources */,
+				641E374926F6458900A1EE8A /* HistoryView.swift in Sources */,
+				641E374C26F6469D00A1EE8A /* DateExtension.swift in Sources */,
+				641E376926F66CD600A1EE8A /* SuccessView.swift in Sources */,
+				641E373B26F639FA00A1EE8A /* ExerciseView.swift in Sources */,
+				641E376C26F66ECA00A1EE8A /* Exercise.swift in Sources */,
+				641E377326F676DB00A1EE8A /* HistoryStoreDevData.swift in Sources */,
 				64E5719F26F52690003F493D /* ContentView.swift in Sources */,
+				641E376F26F670B900A1EE8A /* HistoryStore.swift in Sources */,
+				641E373726F639EA00A1EE8A /* WelcomeView.swift in Sources */,
+				641E374626F644C400A1EE8A /* RatingView.swift in Sources */,
 				64E5719D26F52690003F493D /* MyWorkoutApp.swift in Sources */,
+				641E376426F66AE600A1EE8A /* ImageExtension.swift in Sources */,
+				641E374226F63E1A00A1EE8A /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		641E377F26F7884500A1EE8A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641E377E26F7884500A1EE8A /* en */,
+				648C5F1726F792CE00EC7102 /* th */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		64E571A626F52694003F493D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -211,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
