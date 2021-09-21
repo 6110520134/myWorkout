@@ -10,6 +10,7 @@ import SwiftUI
 struct SuccessView: View {
     @Environment(\.presentationMode) var presentationMode
     @Binding var selectedTab: Int
+    @EnvironmentObject var history: HistoryStore
     
     var body: some View {
         ZStack {
@@ -33,6 +34,7 @@ struct SuccessView: View {
                 
                 Button("Continue") { presentationMode.wrappedValue.dismiss()
                     selectedTab = 9
+                    history.doneExercise = []
                 }
                 .padding()
             }
